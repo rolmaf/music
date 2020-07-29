@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    outline: none;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 100vw;
+    overflow-x: hidden;
+}
+
+.wrapper,
+.wrapper__body {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.find-music {
+    margin: 0px;
+    min-width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lyrics {
+    margin: 10px;
+}
+
+
+.find-music__body {
+    text-align: center;
+    min-width: 100vw;
+    min-height: 100vh;
+    /* background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%); */
+
+
+}
+
+.card {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 50px;
+}
+
+.artist {
+    color: rebeccapurple;
+}
+
+.title {
+    color: seagreen;
+}
+
+.track-btn {
+    margin-top: 15px;
+    padding: 5px;
+
+}
+
+.find-music__form {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.find-music__input {
+    font-size: 1.5rem;
+    padding: 5px;
+    margin-right: 15px;
+}
+
+.find-music__btn {
+    background-color: #fff;
+    border: 0px;
+    /* height: 40px; */
+    /* margin: 10px; */
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border: 1px solid black;
+}
+
+.lyrics__body {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.lyrics__artist {
+    color: rebeccapurple;
+    font-size: 1.5rem;
+}
+
+.lyrics__title {
+    color: royalblue;
+    font-size: 1.5rem;
+}
+
+.lyrics__content {
+    width: 900px;
+    font-size: 1.5rem;
+    text-align: left;
+    border: 3px solid rebeccapurple;
+    padding: 50px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    line-height: 50px;
+}
+
+@media all and (max-width: 788px) {
+    .lyrics__content {
+        font-size: 1rem;
+        text-align: left;
+        border: 2px solid rebeccapurple;
+        padding: 15px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        line-height: 40px;
+    }
+
+}
+
+@media all and (max-width: 1056px) {
+    .lyrics__content {
+        width: 700px;
+    }
+}
+
+@media all and (max-width: 860px) {
+
+    .lyrics__content {
+        width: 500px;
+        font-size: 1rem;
+    }
+}
+
+
+@media all and (max-width: 540px) {
+    .lyrics__content {
+        font-size: 0.5rem;
+        text-align: left;
+        border: 2px solid rebeccapurple;
+        padding: 10px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 500;
+        line-height: 30px;
+    }
+
+
+}
